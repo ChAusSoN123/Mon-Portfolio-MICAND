@@ -15,6 +15,20 @@ header {
 }
 body {
 	font-family: 'Segoe UI', Arial, sans-serif;
-	background-color: #f4f6fb;
+	background-color: #93b2ff;
 	color: #00c458;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /* Permet de passer à la ligne */
+    gap: 1rem;
+}
+
+.card {
+    flex-basis: 300px; /* Taille de base */
+    flex-grow: 1; /* Les cartes grandissent pour remplir l'espace */
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
