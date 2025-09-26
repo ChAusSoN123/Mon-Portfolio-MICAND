@@ -25,6 +25,9 @@ body {
 }
 
 .card {
+    display: flex;
+	justify-content: center;
+    align-items: center;
     flex-basis: 300px; /* Taille de base */
     flex-grow: 1; /* Les cartes grandissent pour remplir l'espace */
     background-color: rgb(37, 96, 151);
