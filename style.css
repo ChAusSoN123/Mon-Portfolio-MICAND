@@ -11,7 +11,7 @@ header {
 	justify-content: space-between; 
 	align-items: center; 
 	padding: 1rem 2rem;
-	background-color: white;
+	background-color: rgb(185, 71, 71);
 }
 body {
 	font-family: 'Segoe UI', Arial, sans-serif;
@@ -27,7 +27,7 @@ body {
 .card {
     flex-basis: 300px; /* Taille de base */
     flex-grow: 1; /* Les cartes grandissent pour remplir l'espace */
-    background-color: white;
+    background-color: rgb(37, 96, 151);
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
