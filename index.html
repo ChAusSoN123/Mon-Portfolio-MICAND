@@ -12,13 +12,12 @@
     <header>
         <h1 id="main-title">Maxence MICAND</h1>
     </header>
-<button id="themeButton">Mode Sombre</button>
 
     <nav>
         <ul>
             <li><a href="#accueil">Accueil</a></li>
-            <li><a href="#projets">Parametre</a></li>
-            <li><h1 id="mon-bouton">Nouveau titre</h1></li>
+            <li><a href="#parametre">Paramètre</a></li>
+            <li><a href="#nouveau-titre" id="mon-bouton">Nouveau titre</a></li>
             <li><a href="#projets">Projets</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -28,6 +27,18 @@
 
         <section id="accueil">
             <h2>Bienvenue</h2>
+            <p>Bonjour — je suis Maxence MICAND. Ceci est la section d'accueil.</p>
+        </section>
+
+        <section id="parametre">
+            <h2>Paramètre</h2>
+            <p>Réglages et options utilisateur.</p>
+            <button id="themeButton">Mode Sombre</button>
+        </section>
+
+        <section id="nouveau-titre">
+            <h2>Nouveau Titre</h2>
+            <p>Section correspondant à "Nouveau titre" dans la navigation.</p>
         </section>
 
         <section id="projets">
@@ -50,6 +61,18 @@
 
         <section id="contact">
             <h2>Me Contacter</h2>
+            <form>
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit">Envoyer</button>
+            </form>
         </section>
 
     </main>
